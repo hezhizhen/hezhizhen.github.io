@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blue Dreams</title>
-    <link>https://hezhizhen.github.io/</link>
-    <description>Recent content on Blue Dreams</description>
+    <title>GitHub on Blue Dreams</title>
+    <link>https://hezhizhen.github.io/tags/github/</link>
+    <description>Recent content in GitHub on Blue Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 May 2019 16:57:26 +0800</lastBuildDate>
     
-	<atom:link href="https://hezhizhen.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://hezhizhen.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About</title>
-      <link>https://hezhizhen.github.io/about/</link>
-      <pubDate>Sat, 15 Jul 2000 00:00:00 +0800</pubDate>
-      
-      <guid>https://hezhizhen.github.io/about/</guid>
-      <description>德尔斐神庙上刻着一句话：「人啊，认识你自己。」可是，自古希腊至今日，有谁认识了自己吗？我们看到的不过是种种标签。标签似落叶，一时附着，一时剥</description>
-    </item>
     
     <item>
       <title>用 Hugo 搭建 Blog 并部署在 GitHub 上</title>
