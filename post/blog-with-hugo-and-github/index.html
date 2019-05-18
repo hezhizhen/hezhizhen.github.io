@@ -43,15 +43,15 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://hezhizhen.github.io/post/blog-with-hugo-and-github/" />
 <meta property="article:published_time" content="2019-05-18T16:57:26&#43;08:00"/>
-<meta property="article:modified_time" content="2019-05-18T20:52:17&#43;08:00"/>
+<meta property="article:modified_time" content="2019-05-18T20:59:09&#43;08:00"/>
 
 <meta itemprop="name" content="用 Hugo 搭建 Blog 并部署在 GitHub 上">
 <meta itemprop="description" content="缘由 FarBox 挺好用的，只需要在提供的编辑器中书写，剩下的事情就都不需要操心了。然而它就像 Python 2 一样，已经进入了倒计时。之前购买了 Basic 套餐，到期时间是 2020">
 
 
 <meta itemprop="datePublished" content="2019-05-18T16:57:26&#43;08:00" />
-<meta itemprop="dateModified" content="2019-05-18T20:52:17&#43;08:00" />
-<meta itemprop="wordCount" content="1938">
+<meta itemprop="dateModified" content="2019-05-18T20:59:09&#43;08:00" />
+<meta itemprop="wordCount" content="2051">
 
 
 
@@ -132,8 +132,8 @@
         <div class="post-category">
             <a href="/categories/%E5%8D%9A%E5%AE%A2%E5%8F%98%E8%BF%81%E5%8F%B2/"> 博客变迁史 </a>
             </div>
-          <span class="more-meta"> 约 1938 字 </span>
-          <span class="more-meta"> 预计阅读 4 分钟 </span>
+          <span class="more-meta"> 约 2051 字 </span>
+          <span class="more-meta"> 预计阅读 5 分钟 </span>
         
       </div>
     </header>
@@ -227,6 +227,10 @@ hugo server -D <span class="c1"># 草稿也加入预览</span></code></pre></td>
 <p>Hugo 的文档上关于添加 Disqus 的部分很简单，只需要填写 <code>disqusShortname</code> 就好。我打开<a href="https://disqus.com/">官网</a> ，根据安装的指南创建了一个站点，并把 ShortName 填入了 <code>config.toml</code> 中。</p>
 
 <p>目前本地并没有显示评论系统，不知道推送之后网页上是否会正常显示。</p>
+
+<p>看了看主题仓库的 issue，其中提到说本地不会加载评论框，那么无论是否开启，我在本地都看不到了。看到 front matter 中 <code>comment</code> 为关闭，我设置为开启，也不知道是否这样就可以了，先推送试试看。</p>
+
+<p>刷新一下网页，果然可以了，那么就在模板中默认打开评论吧。</p>
 
 <h2 id="部署">部署</h2>
 
