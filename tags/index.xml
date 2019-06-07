@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Blue Dreams</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 May 2019 16:57:26 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jun 2019 22:16:36 +0800</lastBuildDate>
     
 	<atom:link href="https://hezhizhen.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Code Review</title>
+      <link>https://hezhizhen.github.io/tags/code-review/</link>
+      <pubDate>Wed, 05 Jun 2019 22:16:36 +0800</pubDate>
+      
+      <guid>https://hezhizhen.github.io/tags/code-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://hezhizhen.github.io/tags/go/</link>
+      <pubDate>Wed, 05 Jun 2019 22:16:36 +0800</pubDate>
+      
+      <guid>https://hezhizhen.github.io/tags/go/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blog</title>
